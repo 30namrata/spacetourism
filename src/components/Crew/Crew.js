@@ -40,10 +40,10 @@ export default function Crew(){
                         </p>
                         
                         <div className="dot-indicators indicators flex">
-                            <Link to="/SpaceTourism/crew/Douglas" className={className[0]} aria-label="Douglas Hurley"></Link>
-                            <Link to="/SpaceTourism/crew/Mark" className={className[1]} aria-label="Mark Shuttleworth"></Link>
-                            <Link to="/SpaceTourism/crew/Victor" className={className[2]} aria-label="Victor Glover"></Link>
-                            <Link to="/SpaceTourism/crew/Anousheh" className={className[3]} aria-label="Anousheh Ansari"></Link>
+                            <Link to="/crew/Douglas" className={className[0]} aria-label="Douglas Hurley"></Link>
+                            <Link to="/crew/Mark" className={className[1]} aria-label="Mark Shuttleworth"></Link>
+                            <Link to="/crew/Victor" className={className[2]} aria-label="Victor Glover"></Link>
+                            <Link to="/crew/Anousheh" className={className[3]} aria-label="Anousheh Ansari"></Link>
                         </div>
                     </article>
 

@@ -131,13 +131,13 @@ export default function DestinationQuiz() {
 
               <div className="result-actions flex">
                 <Link 
-                  to={`/SpaceTourism/destination/${result}`}
+                  to={`/destination/${result}`}
                   className="quiz-action-btn primary uppercase ff-san-cond fs-300 letter-spacing-2"
                 >
                   Explore {destinationMatches[result].name}
                 </Link>
                 <Link 
-                  to={`/SpaceTourism/book?dest=${result}`}
+                  to={`/book?dest=${result}`}
                   className="quiz-action-btn secondary uppercase ff-san-cond fs-300 letter-spacing-2"
                 >
                   🚀 Book Flight Now

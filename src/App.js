@@ -6,7 +6,7 @@ import Technology from "./components/Technology/Tech";
 import SolarSystem from "./components/SolarSystem/SolarSystem";
 import Booking from "./components/Booking/Booking";
 import DestinationQuiz from "./components/Quiz/DestinationQuiz";
-import { BrowserRouter as Router, Route, Routes, Navigate, useLocation } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from "react-router-dom";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -24,9 +24,10 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Homepage />} />
-        
+
         <Route path="/destination" element={<Destination />} />
         <Route path="/destination/:name" element={<Destination />} />
+
 
         <Route path="/crew" element={<Crew />} />
         <Route path="/crew/:name" element={<Crew />} />

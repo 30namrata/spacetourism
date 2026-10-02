@@ -56,9 +56,9 @@ export default function Crew(){
                 </article>
                 
                 <div className="numbered-indicators flex">
-                            <Link to="/SpaceTourism/technology/vehicle" className={className[0] + " link"}>1</Link>
-                            <Link to="/SpaceTourism/technology/spaceport" className={className[1] + " link"} >2</Link>
-                            <Link to="/SpaceTourism/technology/spacecapsule" className={className[2] + " link"}>3</Link>
+                            <Link to="/technology/vehicle" className={className[0] + " link"}>1</Link>
+                            <Link to="/technology/spaceport" className={className[1] + " link"} >2</Link>
+                            <Link to="/technology/spacecapsule" className={className[2] + " link"}>3</Link>
                 </div>
                 {console.log(innerWidth)}{console.log(image)}
                 <img src={process.env.PUBLIC_URL + image} alt="CrewImage"></img>
